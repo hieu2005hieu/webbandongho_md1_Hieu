@@ -1,0 +1,159 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+header {
+  display: flex;
+}
+
+.title-header {
+  background-color: #8a8a8a;
+  width: 100%;
+  padding: 30px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.title-header div {
+  color: white;
+  margin-left: 380px;
+}
+
+.title-header h2 {
+  color: white;
+  margin-left: 380px;
+}
+
+.logo {
+  color: #8a8a8a;
+  background-color: white;
+  font-size: 40px;
+  padding: 20px 20px 20px 100px;
+  width: 375px;
+}
+
+#banner .menu {
+  padding: 20px;
+
+}
+
+.menu-one a {
+  text-decoration: none;
+  padding: 10px 10px 10px 10px;
+  color: rgb(0, 0, 0);
+}
+
+.menu-one {
+  display: flex;
+  margin-top: 40px;
+  transition: 0.5s;
+}
+
+.menu-one:hover {
+  background-color: whitesmoke;
+  border-radius: 20px;
+}
+
+
+#banner {
+  background-color: #8a8a8a;
+  width: 408px;
+
+
+}
+
+#banner h3 {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding: 40px;
+}
+
+
+
+
+#title {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.main-content {
+  background-color: #f4f4f4;
+  padding: 25px;
+  width: 100%;
+  font-size: 20px;
+
+}
+
+/* .b {
+  background-color: rgb(16, 81, 138) !important;
+  color: #F0C27B !important;
+} */
+
+.product {
+  display: flex;
+  color: black;
+  justify-content: space-evenly;
+  padding-top: 20px;
+}
+
+.table-title {
+  padding: 30px;
+}
+
+.table-title tr,
+td {
+  padding: 17.5px;
+}
+
+.tableAdded {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 5px 20px;
+  text-align: center;
+}
+
+.td1 {
+  border: 1px solid black;
+  padding: 5px;
+  margin: 0 auto;
+}
+
+.tr1 {
+  border: 1px solid black;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+
+.buttonSave button {
+  background-color: #725ff093;
+  border-radius: 20px;
+  font-size: 20px;
+  border: none;
+  padding: 10px;
+  transition: 0.5s;
+}
+
+.buttonSave button:hover {
+  background-color: #2a41f0;
+  color: white;
+
+}
+
+.buttonNe {
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #000000;
+  background-color: #725ff093;
+  transition: 0.5s;
+}
+
+.buttonNe:hover {
+  background-color: #2a41f0;
+  color: #fff;
+}

@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.conten {
+    margin: 0px auto;
+    max-width: 960px;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+body a {
+    text-decoration: none;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 1px solid white;
+    padding: 10px 0px;
+    z-index: 99;
+    background-image: url("../img/banner-1504653_1280.png");
+}
+
+.innerheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.9rem;
+    letter-spacing: 2px;
+}
+
+.logo span {
+    border-bottom: 3px solid white;
+    border-top: 3px solid white;
+}
+
+#card_login {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    font-size: 27px;
+    cursor: pointer;
+}
+
+#card_login a {
+    color: white;
+}
+
+#card_login a:hover {
+    color: rgba(255, 203, 106, 0.913);
+}
+
+#card_login .logins {
+    font-size: 17px;
+}
+
+@media screen and (max-width:620px) {
+
+
+    .innerheader {
+        height: 30px;
+    }
+
+    .swiper {
+        margin-top: 0px;
+    }
+
+}
+
+.hidden {
+    display: none;
+}
+
+#btn_info {
+    position: absolute;
+    top: 40px;
+    left: 0;
+}
+
+.infor {
+    font-size: 25px;
+}
+
+ul#menu {
+    display: flex;
+    gap: 20px;
+}
+
+ul#menu a {
+    padding: 10px;
+    color: white;
+    display: block;
+    font-weight: bold;
+}
+
+#menu li {
+    position: relative;
+}
+
+#menu li a {
+    padding-left: 0;
+    padding-right: 0;
+}
+#menu a::before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+    transition: all 0.6s ease-in;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#menu a:hover::before {
+    width: 100%;
+}
+.hidden {
+    display: none;
+
+}
+#card-login a {
+    font-size: 30px;
+    color: white;
+    margin-right: 20px;
+}
+
+#btn_info {
+    position: absolute;
+    top: 40px;
+    left: 0;
+}
+
+#btn_info button {
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    width: 90%;
+    color: #fff;
+    background: #3494E6;
+    background: -webkit-linear-gradient(to right, #EC6EAD, #3494E6);
+    background: linear-gradient(to right, #EC6EAD, #3494E6);
+}
+
+.image_avatar {
+    width: 50px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.countItem {
+    position: relative;
+    right: 8px;
+    bottom: 13px;
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.968);
+    background-color: rgb(255, 234, 0);
+    padding: 5px;
+    border-radius: 20px;
+}
+.Contact {
+    background-color: #3a3a3aa5;
+    margin-top: 180px;
+    display: flex;
+    gap: 20px;
+    height: 600px;
+    color: #fff;
+}
+
+.title_shop {
+    border-right: 1px solid rgb(255, 255, 255);
+    width: 800px;
+    padding: 30px;
+}
+
+.contact_shop div {
+    display: flex;
+    padding: 20px;
+    padding-top: 80px;
+    border-bottom: 1px solid #fff;
+}
+
+.contact_shop div span {
+    padding: 10px;
+    font-size: 20px;
+
+}
+
+
+.me-4 i:hover {
+    color: rgba(4, 203, 221, 0.753);
+}
+footer {
+    margin-top: 100px;
+}
+
+.d-flex {
+    margin-top: 150px;
+    background-color: black;
+    color: rgb(183, 178, 178);
+    opacity: 0.7;
+}
+
+.footer-inline {
+    color: rgb(98, 94, 94);
+}

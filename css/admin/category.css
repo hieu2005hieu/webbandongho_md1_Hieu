@@ -1,0 +1,169 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+header {
+  display: flex;
+}
+
+.title-header {
+  text-align: center;
+  background-color: #8a8a8a;
+  width: 100%;
+  padding: 30px;
+  font-size: 20px;
+  display: flex;
+    justify-content: center;
+}
+.title-header span {
+  margin-left: 1100px;
+}
+.logo {
+  color: #8a8a8a;
+  background-color: white;
+  font-size: 40px;
+  padding: 20px 20px 20px 100px;
+  width: 375px;
+}
+.title-header div {
+  color: white;
+  margin-left: 400px;
+}
+
+.title-header h2 {
+  color: white;
+  margin-left: 400px;
+}
+#banner .menu {
+  padding: 20px;
+
+}
+
+.menu-one a {
+  text-decoration: none;
+  padding: 10px 10px 10px 10px;
+  color: rgb(0, 0, 0);
+}
+
+.menu-one {
+  display: flex;
+  margin-top: 40px;
+  transition: 0.5s;
+}
+
+.menu-one:hover {
+  background-color: whitesmoke;
+  border-radius: 20px;
+}
+
+
+#banner {
+  background-color: #8a8a8a;
+  width: 320px;
+}
+
+#banner h3 {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding: 40px;
+}
+
+
+
+main {
+  display: flex;
+  height: 100%;
+
+}
+
+.btn {
+  padding: 22px;
+}
+
+.btn button {
+  background-color: rgba(21, 65, 240, 0.639);
+  border-radius: 20px;
+  padding: 10px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn button:hover {
+  background-color: rgba(27, 33, 199, 0.769);
+}
+
+#title {
+  background-color: #8a8a8a;
+}
+
+.main-content {
+  background-color: #f4f4f4;
+  padding: 25px;
+  width: 100%;
+  font-size: 20px;
+}
+
+#category {
+  padding: 40px;
+  text-align: center;
+}
+
+#category input {
+  border-radius: 20px;
+  font-size: 15px;
+  padding: 5px;
+  border: none;
+  background-color: rgba(196, 194, 194, 0.815);
+  cursor: pointer;
+  padding-left: 20px;
+  width: 300px;
+}
+table {
+  display: flex;
+  justify-content: center;
+}
+.table-title {
+  padding: 30px;
+}
+
+.table-title tr,
+td {
+  padding: 17.5px;
+  width: 500px;
+}
+
+.tableAdded {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 5px 20px;
+  text-align: center;
+}
+
+.td1 {
+  border: 1px solid black;
+  padding: 20px;
+  margin: 0 auto;
+
+}
+
+.td1 button {
+  background-color: rgba(21, 65, 240, 0.639);
+  border: none;
+  border-radius: 20px;
+  width: 80px;
+  padding: 10px;
+  transition: 0.5s;
+}
+
+.td1 button:hover {
+  background-color: rgba(27, 33, 199, 0.769);
+}
+
+.tr1 {
+  border: 1px solid black;
+  padding: 15px;
+  margin: 0 auto;
+}

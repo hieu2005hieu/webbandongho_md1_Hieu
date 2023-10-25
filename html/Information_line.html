@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MONA</title>
+    <link rel="stylesheet" href="../css/Information_line.css">
+    <link rel="icon" href="../img/favicon.ico">
+    <script src="https://kit.fontawesome.com/5b533cf6a1.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <div class="innerheader conten">
+                <a href="../html/indexx.html"><span class="logo">M<span>O</span>NA</span></a>
+                <nav>
+                    <ul id="menu">
+                        <li><a href="../html/index.html">Trang Chủ</a> </li>
+                        <li><a href="../html/introduction.html">Giới Thiệu</a></li>
+                        <li><a href="../html/product.html">Sản Phẩm</a></li>
+                        <li><a href="../html/contact.html">Liên Hệ </a></li>
+                    </ul>
+                </nav>
+                <nav style="position: relative;">
+                    <div id="card_login">
+                    </div>
+                    <div id="btn_info" class="hidden">
+                        <div>
+                            <a href="./Information_line.html"><button>Thông Tin Đơn Hàng</button></a>
+                        </div>
+                        <button type="button"><label style="cursor: pointer;" for="input_avatar">Thay Đổi
+                                Avatar</label></button>
+                        <input hidden id="input_avatar" type="file" onchange="changeAvatar()"  accept="image/jpeg, image/png">
+                        <button class=" logins" onclick="logout()">Đăng Xuất</button>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div id="container">
+                <div class="title_line">
+                    <h2>Thông Tin Đơn Hàng</h2>
+                </div>
+                <table>
+                    <thead>
+                        <th class="td1">ID Đơn Hàng</th>
+                        <th class="td1">Địa Chỉ</th>
+                        <th class="td1">SĐT</th>
+                        <th class="td1">Thông Tin Sản Phẩm</th>
+                        <th class="td1">Tổng Tiền</th>
+                        <th class="td1">Tình Trạng</th>
+                        <th class="td1">Hành Động</th>
+                    </thead>
+                    <tbody id="table_Added">
+
+                    </tbody>
+                </table>
+            </div>
+        </main>
+
+        <footer class="text-center text-lg-start bg-light text-muted">
+
+            <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+
+                <div class="me-5 d-none d-lg-block">
+                    <span>Hãy kết nối với chúng tôi trên các mạng xã hội:</span>
+                </div>
+
+                <div>
+                    <a href="https://www.facebook.com/profile.php?id=100083849033338" class="me-4 text-reset">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://twitter.com/" class="me-4 text-reset">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://www.google.com/" class="me-4 text-reset">
+                        <i class="fab fa-google"></i>
+                    </a>
+                    <a href="https://www.instagram.com/" class="me-4 text-reset">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/" class="me-4 text-reset">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/" class="me-4 text-reset">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+
+
+            </section>
+            <section class="footer-inline">
+                <div class="container text-center text-md-start mt-5">
+
+                    <div class="row mt-3">
+
+                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                <i class="fas fa-gem me-3"></i>ĐIỀU HƯỚNG
+                            </h6>
+                            <p>
+                                Lorem ipsum amet, consectetuer quảng cáo giới thượng lưu,
+                                bởi vì họ không phải là nibh euismod tincidunt out laoreet
+                            </p>
+                        </div>
+
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                CÁC SẢN PHẨM
+                            </h6>
+                            <p>
+                                <a href="#!" class="text-reset">Góc Cạnh </a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Phản Ứng</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Vue</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Laravel</a>
+                            </p>
+                        </div>
+
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                LIÊN KẾT HỮU ÍCH
+                            </h6>
+                            <p>
+                                <a href="#!" class="text-reset">Đánh Giá </a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Cài Đặt</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Đơn Ngân Hàng</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Giúp Đỡ</a>
+                            </p>
+                        </div>
+
+
+
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+                            <h6 class="text-uppercase fw-bold mb-4">Thông Tin Liên Hệ</h6>
+                            <p><i class="fas fa-home me-3"></i> 319 c16 Lý Thường Kiệt, Phường 15, Quận 11, Tp.HCM</p>
+                            <p>
+                                <i class="fas fa-envelope me-3"></i>
+                                demonhunter@gmail.com
+                                mon@mona.media
+                            </p>
+                            <p><i class="fas fa-phone me-3"></i>0126 922 0162</p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+
+            <div class="text-center p-4" style="background-color: rgba(58, 0, 0, 0.05);">
+                © 2023 Copyright:
+                <a class="text-reset fw-bold" href="../html/indexx.html">MONA.com</a>
+            </div>
+
+        </footer>
+
+
+        <script src="/js/Information_line.js ">
+
+        </script>
+</body>
+
+</html>

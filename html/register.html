@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MONA</title>
+    <link rel="stylesheet" href="../css/register.css">
+    <link rel="icon" href="../img/favicon.ico">
+</head>
+
+<body>
+        <div class="dongho">
+            <img src="../img/z4809105396674_0ae42639c9bd37d2ba453577109d9ffe.jpg" width="100%" height="100%" alt="">
+            <div id="kimgio"></div>
+            <div id="kimphut"></div>
+            <div id="kimgiay"></div>
+        </div>
+    <div id="container">
+        <form action="">
+            <h2>Đăng Kí</h2>
+            <div class="input_scope">
+                <label for="">Tên:</label>
+                <input type="text" id="userName" placeholder="userName"> <br>
+                <p id="fullname-error"></p>
+            </div> 
+            <div class="input_scope">
+                <label for="">Email:</label>
+                <input type="email" id="email" placeholder="Email"><br>
+                <p id="email-error"></p>
+            </div>
+            <div class="input_scope">
+                <label for="">Mật khẩu:</label>
+                <input type="password" id="passWord" placeholder="passWord"> <br>
+                <p id="password-error"></p>
+            </div>
+       
+            <div class="input_scope">
+                <label for="">Nhập Lại<br> Mật Khẩu:</label>
+                <input type="password" id="confirms-passwords" placeholder="confirms-passwords"><br>
+                <p id="confirm-password-error"></p>
+            </div>
+            <button onclick=" register(event)">register</button><br>
+        </form>
+    </div>
+
+    <script src="../js/regiter.js"></script>
+</body>
+
+</html>
